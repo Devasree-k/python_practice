@@ -43,6 +43,16 @@ for num in arr:
 
 
 
+# Use case in shopping cart we will add multiple items in cart for that we use while loop 
+
+items=[]
+while True:
+    item=input("Enter the items to buy (Type 'done' to end the shooping and view list )")
+    if item.lower()=='done':
+        break
+    items.append(item)
+print(items)
+
 
 
 
